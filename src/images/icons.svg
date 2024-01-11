@@ -52,10 +52,6 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08"
                 d="M8 24 24 8M13.333 8H24v10.667" />
         </symbol>
-        <symbol id="icon-star-black" viewBox="0 0 32 32">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                d="m16 4 3.708 7.899L28 13.173l-6 6.145 1.416 8.681L16 23.898l-7.416 4.101L10 19.318l-6-6.145 8.292-1.274L16 4z" />
-        </symbol>
         <symbol id="icon-vector" viewBox="0 0 32 32">
             <path
                 d="m15.321 7.144 11.195-.349-2.288 10.964-3.682-4.388L5.225 26.227l-1.543-1.839 15.321-12.856-3.682-4.388z" />
