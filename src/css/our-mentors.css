@@ -1,0 +1,81 @@
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    /* Phone devices */
+    min-width: 320px;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  /*=====MOBIL our-mentors styles===*/
+
+  
+  .our-mentors-h2{
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
+        margin-bottom: 40px;
+  }
+  .our-mentors-span {
+    color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
+  }
+
+  .our-mentors-ul {
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+  }
+  .our-mentors-list{
+    border-radius: 200px;
+  }
+  .our-mentors-h3{
+    color: #FFF;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+          }
+
+    .our-mentors-paragraph {
+        color: rgba(255, 255, 255, 0.50);
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.33;
+            letter-spacing: -0.02em;
+    }
+  /*=====/MOBIL our-mentors styles===*/
