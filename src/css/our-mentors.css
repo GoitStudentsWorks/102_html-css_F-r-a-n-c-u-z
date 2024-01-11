@@ -27,6 +27,8 @@ img {
     margin-right: auto;
 }
   /*=====MOBIL our-mentors styles===*/
+
+  
   .our-mentors-h2{
     color: #FFF;
         font-family: DM Sans;
@@ -49,6 +51,7 @@ img {
   .our-mentors-ul {
     display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 40px;
   }
   .our-mentors-list{
