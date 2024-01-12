@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.header {
-}
-
 .container-header {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -24,25 +21,37 @@
   padding-bottom: 15px;
   padding-left: 20px;
   margin-right: 90px;
+  fill: #ffffff;
 }
 
-.container {
-}
 .header-icon-link-cmr {
+  fill: #bea69e66;
 }
+
 .header-icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: #1d1d1d;
   width: 32px;
   height: 32px;
-  border-radius: 50%;
   padding-top: 9px;
   padding-bottom: 9px;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
 }
+
 .header-icon-nav {
   width: 32px;
   height: 22px;
   flex-shrink: 0;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.header-icon-navigation {
+  fill: #ffffff;
 }
