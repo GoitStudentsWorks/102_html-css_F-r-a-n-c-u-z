@@ -1,27 +1,8 @@
-.list {
-    list-style-type: none;
-}
-
-.link {
-    text-decoration: none;
-}
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 
   /*=====MOBIL our-mentors styles===*/
 
   
-  .our-mentors-h2{
+  .our-mentors-title-two{
     color: #FFF;
         font-family: DM Sans;
         font-size: 28px;
@@ -50,7 +31,7 @@ img {
   .our-mentors-list{
     border-radius: 200px;
   }
-  .our-mentors-h3{
+  .our-mentors-title-team{
     color: #FFF;
         text-align: center;
         font-family: DM Sans;
@@ -58,6 +39,8 @@ img {
         font-style: normal;
         font-weight: 500;
         line-height: 1.2;
+        margin-bottom: 4px;
+        margin-top: 16px;
           }
 
     .our-mentors-paragraph {
@@ -70,4 +53,46 @@ img {
             line-height: 1.33;
             letter-spacing: -0.02em;
     }
+    
   /*=====/MOBIL our-mentors styles===*/
+
+/*=====/TABLET our-mentors styles===*/
+    @media only screen and (min-width: 768px) {
+      .our-mentors-ul {
+        display: flex;
+       flex-wrap: wrap;
+       gap: 93px 100px;
+      }
+      .our-mentors-list{
+        width: calc((100% - 100px) /2);
+      }
+      .our-mentors-title-two{
+        margin-bottom: 50px;
+      }
+    }
+
+        /*=====/TABLET our-mentors styles===*/
+
+                /*=====desktop our-mentors styles===*/
+   @media only screen and (min-width: 1280px) {
+
+    .container{
+padding-left: 23px;
+padding-right: 23px;
+    }
+    .our-mentors-ul {
+        flex-direction: row;
+          flex-wrap: nowrap;
+          row-gap: 64px;
+          column-gap: 100px;
+      }
+    
+     
+    
+      .our-mentors-title-two {
+        margin-bottom: 50px;
+      }
+   }
+
+
+     /*=====desktop our-mentors styles===*/
