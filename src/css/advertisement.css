@@ -1,14 +1,20 @@
+
+.advertisement.section{
+    padding: 0;
+}
+
 .adv.container{
     padding: 20px 0;
     max-width: max-content;
     width: 100%;
+    box-shadow: 1px 0px 1px 0px rgba(255, 255, 255, 0.20);
+  
 }
 @media only screen and (min-width:768px) {
     .adv.container { 
         padding: 24px 0;
     }
 }
-
 
 .adv-header{
         color: #BEA69E;
@@ -62,4 +68,7 @@
     to {
         transform: translateX(-100%);
     }
+}
+.hide {
+    display: none;
 }
