@@ -58,7 +58,7 @@
         flex-wrap: wrap;
        gap: 93px 100px;
       }
-      .image{
+      .our-mentors-image{
 display: block;
   margin-left: auto;
   margin-right: auto
@@ -82,7 +82,9 @@ display: block;
           flex-wrap: nowrap;
           column-gap: 100px;
       }
-    
+         .our-mentors-title-two {
+           padding-left: 0px;
+         }
    }
 
 
