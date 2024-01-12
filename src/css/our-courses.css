@@ -1,0 +1,137 @@
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.our-courses-section {
+  padding: 20px;
+  text-align: left;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-courses-div {
+  margin-bottom: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.our {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+}
+
+.courses {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+}
+
+.our-courses-paragraph {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+
+.course-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-card {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%; /* Змінено на 100% для гумової верстки */
+  height: 398px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-number {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+
+.card-link {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #1d1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  stroke: #777777;
+}
+
+.card-title {
+  margin-top: 28px;
+  width: 100%; /* Змінено на 100% для гумової верстки */
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.card-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  padding-top: 164px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 375px) {
+  .our-courses {
+    padding: 40px;
+  }
+}
