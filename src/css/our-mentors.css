@@ -3,10 +3,7 @@
 
   
   .our-mentors-title-two{
-    color: #FFF;
-        font-family: DM Sans;
         font-size: 28px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: -0.04em;
@@ -16,7 +13,6 @@
     color: #BEA69E;
         font-family: DM Sans;
         font-size: 28px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: -0.04em;
@@ -32,12 +28,9 @@
     border-radius: 200px;
   }
   .our-mentors-title-team{
-    color: #FFF;
         text-align: center;
-        font-family: DM Sans;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
+         font-weight: 500;
         line-height: 1.2;
         margin-bottom: 4px;
         margin-top: 16px;
@@ -46,9 +39,7 @@
     .our-mentors-paragraph {
         color: rgba(255, 255, 255, 0.50);
             text-align: center;
-            font-family: DM Sans;
             font-size: 12px;
-            font-style: normal;
             font-weight: 400;
             line-height: 1.33;
             letter-spacing: -0.02em;
@@ -59,8 +50,6 @@
 /*=====/TABLET our-mentors styles===*/
     @media only screen and (min-width: 768px) {
       .our-mentors-ul {
-        display: flex;
-       flex-wrap: wrap;
        gap: 93px 100px;
       }
       .our-mentors-list{
@@ -76,22 +65,12 @@
                 /*=====desktop our-mentors styles===*/
    @media only screen and (min-width: 1280px) {
 
-    .container{
-padding-left: 23px;
-padding-right: 23px;
-    }
     .our-mentors-ul {
         flex-direction: row;
           flex-wrap: nowrap;
-          row-gap: 64px;
           column-gap: 100px;
       }
     
-     
-    
-      .our-mentors-title-two {
-        margin-bottom: 50px;
-      }
    }
 
 
