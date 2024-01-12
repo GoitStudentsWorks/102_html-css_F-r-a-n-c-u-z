@@ -1,15 +1,10 @@
 .reviews {
-  width: 1080px;
-    height: 320px;
-    flex-shrink: 0;  
+ width: 1080px;
+ height: 320px;
+ flex-shrink: 0;   
 }
 
-.reviews-container {
-    
-    display: flex;
-     
 
-}
 
 .reviews-title {
     font-size: 48px;
@@ -18,8 +13,24 @@
     letter-spacing: -0.04em;
     width: 171px;
     height: 54px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+/*mobile reviews-title
+font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
 
+    width: 375px;
+    height: 6053px;
+    margin-top: 80px;
+    margin-left: 20px;*/
+ 
 
+.reviews-container {
+  display: flex;
+  margin-left: 100px;
 }
 
 .student1-container {
@@ -32,6 +43,15 @@
     position: relative;
 }
 
+/*mobile student1-container
+width: 530px;
+height: 216px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+margin-top: 104px;
+position: relative;*/
+
 .abraham-container {
     display: inline-flex;
     justify-content: center;
@@ -41,12 +61,23 @@
     padding-left: 20px;
 }
 
+.container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
 .student-name {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.4;
-   
+    line-height: 1.4;  
 }
+/*mobile student-name
+font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;*/
 
 .student-text {
     color: rgba(255, 255, 255, 0.50);
@@ -55,6 +86,13 @@
     line-height: 1.3;
     letter-spacing: -0.02em;
 }
+
+/*mobile student-text
+color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.02em;*/
 
 .text-information {
     font-size: 16px;
@@ -67,6 +105,11 @@
     padding-bottom: 40px;
     padding-left: 20px;
 }
+/*destop text-information
+font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;*/
 
 .star-container1 {
     display: inline-flex;
@@ -103,16 +146,22 @@
     margin-top: 104px;
     margin-left: 20px;
     position: relative;
-
 }
 
-.Amanda-container {
+.amanda-container {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     padding-top: 20px;
     padding-left: 20px;
+}
+
+.container-info2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
 }
 
  .student2-name{
@@ -139,7 +188,7 @@
     padding: 0 20px;
  }
 
-.star-container2 {
+ .star-container2 {
     display: inline-flex;
     align-items: flex-start;
     gap: 4px;
