@@ -6,8 +6,6 @@
 @media only screen and (min-width:768px) {
     .adv.container { 
         padding: 24px 0;
-        max-width: max-content;
-        width: 100%;
     }
 }
 
@@ -16,7 +14,7 @@
         color: #BEA69E;
         font-size: 28px;
         line-height: 1.14;
-        letter-spacing: -0.56px;
+        letter-spacing: -0.02em;
         text-transform: uppercase;
         font-weight: 400;
 
@@ -29,7 +27,7 @@
   
         font-size: 40px;
         line-height: 1.25;
-        letter-spacing: -0.8px;
+        letter-spacing: -0.05em;
 
     }
 }
@@ -37,7 +35,7 @@
     .adv-header {
             font-size: 59px;
             line-height: 1.1;
-            letter-spacing: -1.18px;
+            letter-spacing: -0.05em;
 
     }
 }
