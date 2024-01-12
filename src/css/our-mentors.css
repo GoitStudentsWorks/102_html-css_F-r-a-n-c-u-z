@@ -17,7 +17,7 @@
         line-height: 1.14;
         letter-spacing: -0.04em;
   }
-
+ 
   .our-mentors-ul {
     display: flex;
         flex-wrap: wrap;
@@ -47,10 +47,21 @@
     
   /*=====/MOBIL our-mentors styles===*/
 
-/*=====/TABLET our-mentors styles===*/
+/*=====TABLET our-mentors styles===*/
     @media only screen and (min-width: 768px) {
+
+      .our-mentors-title-two{
+        padding-left: 32px;
+      }
       .our-mentors-ul {
+        display: flex;
+        flex-wrap: wrap;
        gap: 93px 100px;
+      }
+      .image{
+display: block;
+  margin-left: auto;
+  margin-right: auto
       }
       .our-mentors-list{
         width: calc((100% - 100px) /2);
@@ -59,6 +70,7 @@
         margin-bottom: 50px;
       }
     }
+    
 
         /*=====/TABLET our-mentors styles===*/
 
