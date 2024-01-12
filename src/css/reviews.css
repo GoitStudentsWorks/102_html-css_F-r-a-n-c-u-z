@@ -1,8 +1,14 @@
-.reviews {}
+.reviews {
+    
+}
 
-.reviews-container {}
+.reviews-container {
+    width: 1080px;
+    height: 320px;
+    flex-shrink: 0;
+    display: flex;
 
-.container {}
+}
 
 .reviews-title {
     color: #FFF;
@@ -13,17 +19,31 @@
     line-height: 1.1;
         /* 112.5% */
     letter-spacing: -0.04em;
+    width: 171px;
+    height: 54px;
 }
 
-.student1-container {}
+.student1-container {
+    width: 530px;
+    height: 216px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
 
-.abraham-container {}
+.abraham-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
 
 .student-name, .student2-name{
     color: #FFF;
     font-family: DM Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.4;
         /* 140% */
@@ -33,7 +53,6 @@
     color: rgba(255, 255, 255, 0.50);
     font-family: DM Sans;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.3;
         /* 128.571% */
@@ -49,24 +68,64 @@
     line-height: 1.25;
         /* 125% */
     letter-spacing: -0.02em;
+    width: 490px;
+    height: 80px;
 }
 
-.star-container1 {}
+.star-container1 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+}
 
-.star-item {}
+.star-item {
+    display: flex;
+}
 
 .icon-list {}
 
-.svg-star {}
+.svg-star {
+    fill: #BEA69E;
+}
 
-.student2-container {}
+.svg-star-grey{
+    fill: #414141;
+}
 
-.Amanda-container {}
+.student2-container {
+    width: 530px;
+    height: 216px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    margin-left: 20px;
+}
 
-.star-container2 {}
+.Amanda-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
 
-.star-item2 {}
+.star-container2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.star-item2 {
+    display: flex;
+}
 
 .icon-list2 {}
 
-.svg-star2 {}
+.svg-star2 {
+    fill: #BEA69E;
+}
+
+.svg-star2-grey{
+   fill: #414141;
+}
