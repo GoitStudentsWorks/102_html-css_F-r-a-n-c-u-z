@@ -1,5 +1,7 @@
 .hero {
 }
+
+/* Mobile */
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -8,9 +10,14 @@
   background: #1d1d1d;
 }
 
+@media only screen and (min-width: 1280px) {
+  .hero-container {
+    flex-direction: row;
+  }
+}
+
 /* Mobile */
 .hero-title {
-  color: #fff;
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
@@ -21,12 +28,51 @@
   padding: 20px;
   padding-top: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    padding-top: 64px;
+    padding-left: 32px;
+    max-width: 581px;
+
+    font-size: 60px;
+    line-height: 1.07;
+    letter-spacing: -0.04em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-title {
+    padding-top: 80px;
+    padding-left: 50px;
+    max-width: 647px;
+
+    font-size: 64px;
+
+    line-height: 1.06;
+  }
+}
+/* Mobile */
 .hero-accent {
   color: #bea69e;
   font-size: 40px;
   font-style: italic;
   line-height: 1.1;
   letter-spacing: -0.04em;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-accent {
+    font-size: 60px;
+    line-height: 1.07;
+    letter-spacing: -0.04em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-accent {
+    font-size: 64px;
+    line-height: 1.06;
+  }
 }
 
 /* Mobile */
@@ -39,19 +85,49 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
 
-  max-width: 295px;
+  max-width: 335px;
   margin-bottom: 40px;
+  padding: 0 20px;
 }
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    max-width: 468px;
+    padding-left: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-text {
+    max-width: 486px;
+    padding-left: 50px;
+    margin-bottom: 136px;
+  }
+}
+
 .hero-student {
-  width: 109px;
+  /* width: 109px; */
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-student {
+    display: flex;
+    gap: 12px;
+  }
+}
+
 .hero-student-list {
   display: flex;
 
   margin-bottom: 4px;
 }
-.hero-student-list-item {
+
+@media only screen and (min-width: 768px) {
+  .hero-student-list-item {
+    width: 54px;
+    height: 54px;
+  }
 }
+
 .student-pic {
 }
 
@@ -64,8 +140,6 @@
   gap: 4px;
 }
 .hero-student-text {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
@@ -77,12 +151,22 @@
 }
 .hero-student-review-box {
   display: flex;
+  align-items: flex-start;
 
   gap: 40px;
   margin-bottom: 31px;
-
-  position: relative;
+  padding-left: 20px;
+  max-width: 293px;
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-student-review-box {
+    margin-bottom: 40px;
+    max-width: 418px;
+    padding-left: 32px;
+  }
+}
+
 .hero-reviews {
   display: flex;
   justify-content: center;
@@ -90,16 +174,29 @@
 
   width: 104px;
   gap: 12px;
-
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 .hero-reviews-wrapper {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
+
+.rev-text {
+  color: rgba(255, 255, 255, 0.5);
+
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+}
+
+.rev-count {
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
 .hero-star-wrapper {
   display: flex;
   justify-content: center;
@@ -120,4 +217,33 @@
 }
 .hero-image {
   padding: 0 38px;
+}
+@media only screen and (min-width: 768x) {
+  .hero-image {
+    padding: 0 156px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-image {
+    padding: 0;
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-image-card {
+    width: 393px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-image-card {
+    width: 397px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-content {
+    margin-right: 20px;
+  }
 }
