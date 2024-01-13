@@ -63,11 +63,7 @@
         flex-wrap: wrap;
        gap: 93px 100px;
       }
-      /* .our-mentors-image{
-display: block;
-  margin-left: auto;
-  margin-right: auto
-      } */
+  
       .our-mentors-list{
         width: calc((100% - 100px) /2);
       }
