@@ -49,10 +49,13 @@
 
 /*=====TABLET our-mentors styles===*/
     @media only screen and (min-width: 768px) {
+.our-mentors-div {
+  max-width: 704px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
 
-      .our-mentors-title-two{
-        padding-left: 32px;
-      }
+   
       .our-mentors-ul {
         display: flex;
         flex-wrap: wrap;
@@ -76,7 +79,14 @@ display: block;
 
                 /*=====desktop our-mentors styles===*/
    @media only screen and (min-width: 1280px) {
-
+.our-mentors-div {
+    max-width: 1080px;
+  
+  }
+  .our-mentour-container-tablet {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
     .our-mentors-ul {
         flex-direction: row;
           flex-wrap: nowrap;
@@ -85,6 +95,9 @@ display: block;
          .our-mentors-title-two {
            padding-left: 0px;
          }
+                    .our-mentors-list {
+                      width: calc((100% - 300px) /4);
+                    }
    }
 
 
