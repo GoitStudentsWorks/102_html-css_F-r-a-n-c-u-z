@@ -3,15 +3,21 @@
 *::after {
   box-sizing: border-box;
 }
-
-.header {
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
-
+.header {
+  display: flex;
+}
 .container-header {
+  width: 100%;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  width: 335px;
-  height: 50px;
+  height: 60px;
+  width: 822px;
   flex-shrink: 0;
   margin-top: 20px;
   margin-left: 40px;
@@ -19,30 +25,77 @@
   justify-content: space-between;
   align-items: center;
 }
-.header-logo {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  margin-right: 90px;
+@media (min-width: 1280px) {
+  .header-logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 90px;
+    fill: #ffffff;
+  }
 }
 
-.container {
-}
 .header-icon-link-cmr {
+  fill: #bea69e66;
 }
-.header-icon-link {
-  display: flex;
+@media (max-width: 375px) {
+  .header-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 50%;
+    background-color: #1d1d1d;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-widht: 768px) {
+  .header-icon-nav {
+    width: 32px;
+    height: 22px;
+    flex-shrink: 0;
+  }
+}
+
+.header-icon-navigation {
+  stroke: #ffffff;
+}
+.header-button {
+  border-radius: 12px;
+  background: #fff;
+  display: inline-flex;
+  padding: 16px 58px;
+  cursor: pointer;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.header-list {
   justify-content: center;
-  align-items: center;
-  fill: #1d1d1d;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  flex-wrap: wrap;
+  gap: 14px;
+  display: flex;
 }
-.header-icon-nav {
-  width: 32px;
-  height: 22px;
-  flex-shrink: 0;
+.header-item {
+}
+.header-list-text {
+  display: flex;
+}
+.header-item-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@media (min-width: 1280px) {
+  .header-nav {
+    gap: 28px;
+  }
 }
