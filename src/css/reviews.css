@@ -1,9 +1,11 @@
 .reviews {
- width: 1080px;
- height: 320px;
- flex-shrink: 0;   
+ /*Удалить  width: 1080px; */
+ /* height: 320px; */
+ /* flex-shrink: 0;    */
 }
-
+.hide{
+    display:none;
+  }
 
 
 .reviews-title {
@@ -13,8 +15,8 @@
     letter-spacing: -0.04em;
     width: 171px;
     height: 54px;
-    margin-top: 150px;
-    margin-left: 100px;
+    /* Удалить  margin-top: 150px;
+    margin-left: 100px; */
 }
 /*mobile reviews-title
 font-size: 28px;
@@ -30,7 +32,7 @@ font-size: 28px;
 
 .reviews-container {
   display: flex;
-  margin-left: 100px;
+  /* удалить margin-left: 100px; */
 }
 
 .student1-container {
@@ -39,7 +41,7 @@ font-size: 28px;
     flex-shrink: 0;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    margin-top: 104px;
+    margin-top: 40px;
     position: relative;
 }
 
