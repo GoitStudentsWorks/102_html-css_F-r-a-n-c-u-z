@@ -50,22 +50,24 @@
 /*=====TABLET our-mentors styles===*/
     @media only screen and (min-width: 768px) {
 .our-mentors-div {
-  max-width: 704px;
+  max-width: 768px;
   padding-left: 32px;
   padding-right: 32px;
 }
-
+.our-mentors-list{
+  max-width: 180px;
+}
    
       .our-mentors-ul {
         display: flex;
         flex-wrap: wrap;
        gap: 93px 100px;
       }
-      .our-mentors-image{
+      /* .our-mentors-image{
 display: block;
   margin-left: auto;
   margin-right: auto
-      }
+      } */
       .our-mentors-list{
         width: calc((100% - 100px) /2);
       }
@@ -80,7 +82,7 @@ display: block;
                 /*=====desktop our-mentors styles===*/
    @media only screen and (min-width: 1280px) {
 .our-mentors-div {
-    max-width: 1080px;
+    max-width: 1280px;
   
   }
   .our-mentour-container-tablet {
