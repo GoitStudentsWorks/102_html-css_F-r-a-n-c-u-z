@@ -15,6 +15,16 @@
   height: 32px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1279.9px) {
+  .reviews-title {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+
+    width: 171px;
+    height: 54px;
+  }
+}
 
 /*destop reviews-title
 font-size: 48px;
@@ -26,43 +36,26 @@ font-size: 48px;
 
 .reviews-container {
   display: flex;
-
-/* @media only screen and (min-width: 768px) and (max-width: 1279.9px) {
-  .reviews-title {
-    font-size: 48px;
-    line-height: 1.12;
-    letter-spacing: -0.04em;
-
-    width: 171px;
-    height: 54px;
-  }
-}
-
-.reviews-container {
-  display: flex;
   align-items: flex-end;
   justify-content: center;
-  gap: 20px; */
-
+  gap: 20px;
 }
 
 .student1-container {
   width: 335px;
-/*   height: 244px; */
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 40px;
   position: relative;
-
 }
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .student1-container {
     width: 640px;
     height: 196px;
-  } 
-}*/
+  }
+}
 
 /*destop student1-container
 width: 530px;
@@ -95,12 +88,11 @@ position: relative;*/
   line-height: 1.2;
 }
 
-
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .student-name {
     line-height: 1.4;
   }
-} */
+}
 
 /*destop student-name
 font-size: 20px;
@@ -116,25 +108,11 @@ font-size: 20px;
   letter-spacing: -0.02em;
 }
 
-/*destop student-text
-
-/*   line-height: 1.3;
-  letter-spacing: -0.02em;
-}
-
 @media only screen and (min-width: 768px) {
   .student-text {
     font-size: 14px;
   }
 }
- */
-/*mobile student-text*/
-
-color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.3;
-  letter-spacing: -0.02em;*/
 
 .text-information {
   font-size: 14px;
@@ -143,12 +121,17 @@ color: rgba(255, 255, 255, 0.5);
   letter-spacing: -0.02em;
 
   padding-top: 46px;
-
-/*   padding-top: 40px; */
-
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-information {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-top: 23px;
+  }
 }
 
 /*destop text-information
@@ -158,20 +141,6 @@ color: rgba(255, 255, 255, 0.5);
   letter-spacing: -0.02em;
   ;*/
 
-
-
-/* @media only screen and (min-width: 768px) {
-  .text-information {
-    font-size: 16px;
-    line-height: 1.25;
-    padding-top: 23px;
-  }
-}
-/*mobsle text-information
-line-height: 1.25;
-  letter-spacing: -0.02em; */
-  
-
 .star-container1 {
   display: inline-flex;
   align-items: flex-start;
@@ -179,27 +148,15 @@ line-height: 1.25;
   position: absolute;
   top: 80px;
   left: 86px;
-
 }
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .star-container1 {
     position: absolute;
     top: 20px;
     left: 504px;
   }
 }
-
-@media only screen and (max-width: 1280px) {
-  .star-container1 {
-    position: absolute;
-    top: 20px;
-    left: 490px;
-  } */
-
-
-/*} top: 20px;
-  right: 20px;*/
 
 .star-item {
   display: flex;
@@ -227,7 +184,7 @@ line-height: 1.25;
   margin-top: 104px;
   margin-left: 20px;
 
-/*   height: 216px;
+  /*   height: 216px;
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2); */
@@ -266,21 +223,19 @@ line-height: 1.25;
 }
 
 .text2-information {
-
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: -0.02em;
   width: 490px;
   height: 100px;
-  padding: 0 20px
-/*   line-height: 1.25;
+  padding: 0 20px;
+  /*   line-height: 1.25;
   letter-spacing: -0.02em;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px; */
-
 }
 
 .star-container2 {
