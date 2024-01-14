@@ -1,51 +1,56 @@
 .reviews {
- /*Удалить  width: 1080px; */
- /* height: 320px; */
- /* flex-shrink: 0;    */
 }
-.hide{
-    display:none;
-  }
 
+.hide {
+  display: none;
+}
 
 .reviews-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+
+  width: 100px;
+  height: 32px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.9px) {
+  .reviews-title {
     font-size: 48px;
-    font-weight: 500;
     line-height: 1.12;
     letter-spacing: -0.04em;
+
     width: 171px;
     height: 54px;
-    /* Удалить  margin-top: 150px;
-    margin-left: 100px; */
+  }
 }
-/*mobile reviews-title
-font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-
-    width: 375px;
-    height: 6053px;
-    margin-top: 80px;
-    margin-left: 20px;*/
- 
 
 .reviews-container {
   display: flex;
-  /* удалить margin-left: 100px; */
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
 }
 
 .student1-container {
-    width: 530px;
-    height: 216px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    margin-top: 40px;
-    position: relative;
+  width: 335px;
+  height: 244px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 40px;
+  position: relative;
 }
 
-/*mobile student1-container
+@media only screen and (min-width: 768px) {
+  .student1-container {
+    width: 640px;
+    height: 196px;
+  }
+}
+
+/*destop student1-container
 width: 530px;
 height: 216px;
 flex-shrink: 0;
@@ -55,162 +60,194 @@ margin-top: 104px;
 position: relative;*/
 
 .abraham-container {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-top: 20px;
-    padding-left: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .container-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
 }
 
 .student-name {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.4;  
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 }
-/*mobile student-name
+
+@media only screen and (min-width: 768px) {
+  .student-name {
+    line-height: 1.4;
+  }
+}
+
+/*destop student-name
 font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;*/
+  font-weight: 500;
+  line-height: 1.4;*/
 
 .student-text {
-    color: rgba(255, 255, 255, 0.50);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .student-text {
     font-size: 14px;
-    font-weight: 400;
-    line-height: 1.3;
-    letter-spacing: -0.02em;
+  }
 }
 
 /*mobile student-text
-color: rgba(255, 255, 255, 0.50);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.33;
-    letter-spacing: -0.02em;*/
+color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;*/
 
 .text-information {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    width: 490px;
-    height: 80px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    padding-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
-/*destop text-information
-font-size: 14px;
-    font-weight: 400;
-    line-height: 1.28;
-    letter-spacing: -0.02em;*/
 
+@media only screen and (min-width: 768px) {
+  .text-information {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-top: 23px;
+  }
+}
+/*mobsle text-information
+line-height: 1.25;
+  letter-spacing: -0.02em;
+  
+*/
 .star-container1 {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 4px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 80px;
+  left: 86px;
+}
+
+@media only screen and (min-width: 768px) {
+  .star-container1 {
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 504px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .star-container1 {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+  }
 }
 
 .star-item {
-    display: flex;
-    
+  display: flex;
 }
 
-.icon-list {}
+.icon-list {
+}
 
 .svg-star {
-    stroke: #BEA69E;
-    fill: #BEA69E;
+  stroke: #bea69e;
+  fill: #bea69e;
 }
 
-.svg-star-grey{
-    stroke: #414141;
-    fill: #414141;
+.svg-star-grey {
+  stroke: #414141;
+  fill: #414141;
 }
 
 .student2-container {
-    width: 530px;
-    height: 216px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    margin-top: 104px;
-    margin-left: 20px;
-    position: relative;
+  width: 530px;
+  height: 216px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
 }
 
 .amanda-container {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-top: 20px;
-    padding-left: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
-.container-info2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
+.container-info2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
 }
 
- .student2-name{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.4;
- }
+.student2-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+}
 
- .student2-text{
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.3;
-    letter-spacing: -0.02em;
- }
+.student2-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
 
- .text2-information{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    width: 490px;
-    height: 100px;
-    padding: 0 20px;
- }
+.text2-information {
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
 
- .star-container2 {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 4px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.star-container2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .star-item2 {
-    display: flex;
+  display: flex;
 }
 
-.icon-list2 {}
+.icon-list2 {
+}
 
 .svg-star2 {
-    stroke: #BEA69E;
-    fill: #BEA69E;
+  stroke: #bea69e;
+  fill: #bea69e;
 }
 
-.svg-star2-grey{
-    stroke: #414141;
-    fill: #414141;
+.svg-star2-grey {
+  stroke: #414141;
+  fill: #414141;
 }
