@@ -15,7 +15,7 @@
   height: 32px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279.9px) {
+@media only screen and (min-width: 768px) {
   .reviews-title {
     font-size: 48px;
     line-height: 1.12;
@@ -54,17 +54,22 @@ font-size: 48px;
   .student1-container {
     width: 640px;
     height: 196px;
+    margin-top: 50px;
   }
 }
 
-/*destop student1-container
-width: 530px;
-height: 216px;
-flex-shrink: 0;
-border-radius: 12px;
-border: 1px solid rgba(255, 255, 255, 0.20);
-margin-top: 104px;
-position: relative;*/
+@media only screen and (min-width: 1280px) and (max-width: 1439.9px) {
+  .student1-container {
+    width: 530px;
+    height: 216px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .student1-container {
+    width: 610px;
+  }
+}
 
 .abraham-container {
   display: inline-flex;
@@ -111,6 +116,7 @@ font-size: 20px;
 @media only screen and (min-width: 768px) {
   .student-text {
     font-size: 14px;
+    line-height: 1.25;
   }
 }
 
@@ -134,13 +140,6 @@ font-size: 20px;
   }
 }
 
-/*destop text-information
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  ;*/
-
 .star-container1 {
   display: inline-flex;
   align-items: flex-start;
@@ -155,6 +154,14 @@ font-size: 20px;
     position: absolute;
     top: 20px;
     left: 504px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439.9px) {
+  .star-container1 {
+    position: absolute;
+    top: 20px;
+    left: 394px;
   }
 }
 
@@ -177,19 +184,25 @@ font-size: 20px;
 
 .student2-container {
   width: 530px;
-
+  height: 216px;
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  margin-top: 104px;
-  margin-left: 20px;
-
-  /*   height: 216px;
-  flex-shrink: 0;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2); */
-
+  margin-top: 50px;
+  padding: 20px;
   position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .student2-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .student2-container {
+    width: 610px;
+  }
 }
 
 .amanda-container {
@@ -197,8 +210,6 @@ font-size: 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-top: 20px;
-  padding-left: 20px;
 }
 
 .container-info2 {
@@ -227,16 +238,15 @@ font-size: 20px;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  width: 490px;
-  height: 100px;
-  padding: 0 20px;
-  /*   line-height: 1.25;
-  letter-spacing: -0.02em;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  padding-left: 20px; */
+  padding-left: 20px;
 }
+/*   line-height: 1.25;
+  letter-spacing: -0.02em;
+  padding-top: 20px;
+   */
 
 .star-container2 {
   display: inline-flex;
