@@ -1,6 +1,8 @@
 
 
-
+.advertisement{
+    padding-top: 0;
+}
 .adv.container{
     padding: 20px 0;
     max-width: max-content;
