@@ -91,7 +91,7 @@
           column-gap: 100px;
       }
          .our-mentors-title-two {
-           padding-left: 0px;
+           padding-left: 100px;
          }
                     .our-mentors-list {
                       width: calc((100% - 300px) /4);
