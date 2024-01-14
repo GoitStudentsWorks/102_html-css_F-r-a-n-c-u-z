@@ -1,4 +1,22 @@
+.hide {
+  display: none;
+}
+
 .hero {
+  background-image: url(/images/header/Graphic-mob@1x.png);
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image: url(/images/header/Graphic-tab@1x.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero {
+    background-image: url(/images/header/Graphic-des1280@1x.png);
+  }
 }
 
 /* Mobile */
