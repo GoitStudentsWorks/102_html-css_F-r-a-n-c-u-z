@@ -8,6 +8,8 @@
 
   border-radius: 30px;
   background: #1d1d1d;
+
+  max-width: 335px;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -119,6 +121,8 @@
   display: flex;
 
   margin-bottom: 4px;
+
+  position: relative;
 }
 
 @media only screen and (min-width: 768px) {
@@ -127,8 +131,20 @@
     height: 54px;
   }
 }
-
-.student-pic {
+.hero-student-g1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.hero-student-b {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  z-index: 9;
+}
+.hero-student-g2 {
+  transform: translateX(-43px);
 }
 
 .student-box {
