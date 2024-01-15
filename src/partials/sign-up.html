@@ -1,4 +1,4 @@
-<section class="sign-up-section">
+<section class="sign-up-section" id="sign-up">
   <div class="sign-countainer">
     <div class="sign-up-countainer">
       <div class="sing-up-div">
@@ -24,6 +24,8 @@
               id="user-name"
               name="user-name"
               placeholder="Enter your name"
+              pattern="[A-Za-z]+"
+              title="Please enter a valid name (letters only)"
             />
           </div>
         </div>
@@ -37,6 +39,8 @@
               id="user-mail"
               name="user-mail"
               placeholder="Enter your email"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              title="Please enter a valid email address"
             />
           </div>
         </div>
@@ -56,23 +60,21 @@
         <button class="btn-send" type="submit" aria-label="Send-form">
           Send
         </button>
-
-        <!--Privacy Policy-->
-        <div class="privacy-div">
-          <p class="privacy-policy">
-            By clicking on “Send” button, you agree to our
-            <span class="privacy-policy-span"
-              ><a href="">Privacy Policy</a></span
-            >, and allow Promodo to use this information for marketing purposes.
-          </p>
-        </div>
       </form>
+      <!--Privacy Policy-->
+      <div class="privacy-div">
+        <p class="privacy-policy">
+          By clicking on “Send” button, you agree to our
+          <span class="privacy-policy-span"><a href="">Privacy Policy</a></span
+          >, and allow Promodo to use this information for marketing purposes.
+        </p>
+      </div>
     </div>
   </div>
 
   <!--Photo block-->
 
-  <div class="div-hpoto">
+  <div class="div-photo">
     <ul class="sing-up-photo-ul">
       <li class="sing-up-photo-li isabella">
         <img
