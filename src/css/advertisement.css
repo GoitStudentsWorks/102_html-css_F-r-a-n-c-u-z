@@ -1,5 +1,3 @@
-
-
 .advertisement{
     padding-top: 0;
 }
@@ -9,7 +7,6 @@
     width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.20);
     border-bottom: 1px solid rgba(255, 255, 255, 0.20);
-  
 }
 @media only screen and (min-width:768px) {
     .adv.container { 
@@ -46,27 +43,28 @@
 
     }
 }
-.accent {
+
+  .accent {
     color: #FFF;
 }
-
-.adv-run-row{
+  .adv-run-row{
     flex-shrink: 0;
     margin: 0;
     min-width: 100%;
     white-space: nowrap;
-    animation-name: advertisementLine;
-    animation-duration: 6s;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
-@keyframes advertisementLine {
+  
+  @keyframes marqueeLine {
     from {
-        transform: translateX(0);
+      transform: translateX(0);
     }
-
+    
     to {
-        transform: translateX(-100%);
+      transform: translateX(-100%);
     }
-}
+  }

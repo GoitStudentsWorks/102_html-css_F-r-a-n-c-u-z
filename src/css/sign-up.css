@@ -1,17 +1,13 @@
-.sign-up-section {
-  display: flex;
-
-  justify-content: space-between;
-  width: auto;
-  height: auto;
-  flex-shrink: 0;
-  margin: 80px auto;
+@media only screen and (min-width: 1280px)  {
+  .sign-up-section {
+    display: flex;
+    gap: 60px;
+  } 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
   .sign-up-section {
-    max-width: 1080px;
-    max-height: 578px;
+   gap: 200px;
   }
 }
 
@@ -24,7 +20,7 @@
 @media screen and (min-width: 768px) {
   .sing-up-div {
     width: 159px;
-    height: 54x;
+
   }
 }
 
@@ -50,8 +46,6 @@
 
 .div-p-sing-up {
   max-width: 295px;
-  /*max-height: 54px;*/
-
   margin-bottom: 40px;
 }
 
@@ -62,11 +56,7 @@
 }
 
 .sign-up-p {
-  color: #fff;
-
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.28em;
   letter-spacing: -0.02em;
 }
@@ -159,13 +149,8 @@
 }
 
 .form-input::placeholder {
-  color: #fff;
-
   font-size: 14px;
-
-  font-weight: 400;
   line-height: 1.28em;
-
   opacity: 0.7;
 }
 
@@ -177,13 +162,8 @@
 }
 
 .form-text-area::placeholder {
-  color: #fff;
-
   font-size: 14px;
-
-  font-weight: 400;
   line-height: 1.28em;
-
   opacity: 0.7;
 }
 
@@ -207,7 +187,7 @@
 
   background-color: white;
 
-  color: var(--black, #121212);
+  color: #121212;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25em;
@@ -267,8 +247,6 @@
   color: rgba(255, 255, 255, 0.5);
 
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.33em;
 }
 
@@ -289,13 +267,11 @@
   display: none;
 }
 
+
 @media screen and (min-width: 1280px) {
-  .div-photo {
-    width: 540px;
-    height: 540px;
-  }
 
   .sing-up-photo-ul {
+    position: relative;
     display: flex;
     align-items: flex-end;
 
@@ -307,12 +283,36 @@
   }
 
   .sing-up-photo-li.isabella {
+    width: 180px;
+    height: 288px;
     background: #bea69e;
     padding: 76px 19px 62px;
   }
+  @media only screen and (min-width: 1440px) {
+    .sing-up-photo-li.isabella{
+      width: 190px;
+    }
+  }
 
   .sing-up-photo-li.video-entry {
+    width: 340px;
+    height: 540px;
     background: #1d1d1d;
     padding: 156px 50px 88px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .sing-up-photo-li.video-entry{
+    width: 350px;
+  }
+}
+
+.sing-up-img{
+  position: absolute;
+  left: -1px;
+}
+@media only screen and (min-width: 1440px) {
+  .sing-up-img{
+    left: -3px;
   }
 }

@@ -36,6 +36,13 @@
     padding-right: 100px;
   }
 }
+/* Desktop 1440px devices */
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
 
 /* Phone devices */
 section {
@@ -49,13 +56,15 @@ section {
     padding-bottom: 50px;
   }
 }
-/* Desktop devices */
+/* Desktop 1280px devices */
 @media only screen and (min-width: 1280px) {
   section {
     padding-top: 75px;
     padding-bottom: 75px;
   }
 }
+
+
 
 body {
   font-family: 'DM Sans';

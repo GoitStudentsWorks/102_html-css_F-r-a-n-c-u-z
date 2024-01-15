@@ -1,102 +1,107 @@
+/*=====MOBIL our-mentors styles===*/
 
-  /*=====MOBIL our-mentors styles===*/
+.our-mentors-title-two {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .our-mentors-title-two {
+    font-size: 48px;
+    line-height: 1.12;
+  }
+}
+.our-mentors-span {
+  color: #bea69e;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+@media only screen and (min-width: 768px) {
+  .our-mentors-span{
+font-size: 48px;
+line-height: 1.12;
+  }
+}
+.our-mentors-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.our-mentors-list {
+  border-radius: 200px;
+}
+.our-mentors-title-team {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
 
-  
-  .our-mentors-title-two{
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -0.04em;
-        margin-bottom: 40px;
-  }
-  .our-mentors-span {
-    color: #BEA69E;
-        font-family: DM Sans;
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -0.04em;
-  }
- 
-  .our-mentors-ul {
-    display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 40px;
-  }
-  .our-mentors-list{
-    border-radius: 200px;
-  }
-  .our-mentors-title-team{
-        text-align: center;
-        font-size: 20px;
-         font-weight: 500;
-        line-height: 1.2;
-        margin-bottom: 4px;
-        margin-top: 16px;
-          }
+.our-mentors-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
 
-    .our-mentors-paragraph {
-        color: rgba(255, 255, 255, 0.50);
-            text-align: center;
-            font-size: 12px;
-            font-weight: 400;
-            line-height: 1.33;
-            letter-spacing: -0.02em;
-    }
-    
-  /*=====/MOBIL our-mentors styles===*/
+/*=====/MOBIL our-mentors styles===*/
 
 /*=====TABLET our-mentors styles===*/
-    @media only screen and (min-width: 768px) {
-.our-mentors-div {
-  max-width: 768px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-.our-mentors-list{
-  max-width: 180px;
-}
-   
-      .our-mentors-ul {
-        display: flex;
-        flex-wrap: wrap;
-       gap: 93px 100px;
-      }
-  
-      .our-mentors-list{
-        width: calc((100% - 100px) /2);
-      }
-      .our-mentors-title-two{
-        margin-bottom: 50px;
-      }
-    }
-    
+@media only screen and (min-width: 768px) {
+  .our-mentors-div {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .our-mentors-list {
+    max-width: 180px;
+  }
 
-        /*=====/TABLET our-mentors styles===*/
+  .our-mentors-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 93px 100px;
+  }
 
-                /*=====desktop our-mentors styles===*/
-   @media only screen and (min-width: 1280px) {
-.our-mentors-div {
+  .our-mentors-list {
+    width: calc((100% - 100px) / 2);
+  }
+  .our-mentors-title-two {
+    margin-bottom: 50px;
+  }
+}
+
+/*=====/TABLET our-mentors styles===*/
+
+/*=====desktop our-mentors styles===*/
+@media only screen and (min-width: 1280px) {
+  .our-mentors-div {
     max-width: 1280px;
-  
   }
   .our-mentour-container-tablet {
     padding-left: 0px;
     padding-right: 0px;
   }
-    .our-mentors-ul {
-        flex-direction: row;
-          flex-wrap: nowrap;
-          column-gap: 100px;
-      }
-         .our-mentors-title-two {
-           padding-left: 100px;
-         }
-                    .our-mentors-list {
-                      width: calc((100% - 300px) /4);
-                    }
-   }
+  .our-mentors-ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 100px;
+  }
+  .our-mentors-title-two {
+    margin-left: 100px;
+  }
+  .our-mentors-list {
+    width: calc((100% - 300px) / 4);
+  }
+}
 
-
-     /*=====desktop our-mentors styles===*/
+/*=====desktop our-mentors styles===*/
