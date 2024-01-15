@@ -31,7 +31,6 @@
   align-items: flex-end;
   justify-content: center;
   gap: 20px;
-  width: 1240px;
 }
 
 .student1-container {
@@ -150,6 +149,7 @@
   .star-container1 {
     position: absolute;
     top: 20px;
+    left: ;
   }
 }
 
