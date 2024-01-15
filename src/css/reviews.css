@@ -26,14 +26,6 @@
   }
 }
 
-/*destop reviews-title
-font-size: 48px;
-  font-weight: 500;
-  line-height: 1.12;
-  letter-spacing: -0.04em;
-  width: 171px;
-  height: 54px;*/
-
 .reviews-container {
   display: flex;
   align-items: flex-end;
@@ -68,6 +60,7 @@ font-size: 48px;
 @media screen and (min-width: 1440px) {
   .student1-container {
     width: 610px;
+    height: 196px;
   }
 }
 
@@ -98,11 +91,6 @@ font-size: 48px;
     line-height: 1.4;
   }
 }
-
-/*destop student-name
-font-size: 20px;
-  font-weight: 500;
-  line-height: 1.4;*/
 
 .student-text {
   color: rgba(255, 255, 255, 0.5);
@@ -202,6 +190,7 @@ font-size: 20px;
 @media only screen and (min-width: 1440px) {
   .student2-container {
     width: 610px;
+    height: 196px;
   }
 }
 
@@ -239,14 +228,7 @@ font-size: 20px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
 }
-/*   line-height: 1.25;
-  letter-spacing: -0.02em;
-  padding-top: 20px;
-   */
 
 .star-container2 {
   display: inline-flex;
