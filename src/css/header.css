@@ -19,6 +19,7 @@
 }
 .container-header {
   width: 335px;
+  height: 50px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
@@ -29,6 +30,7 @@
 @media only screen and (min-width: 768px) {
   .container-header {
     width: 504px;
+    height: 60px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -119,7 +121,6 @@
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
-    margin-top: 20px;
     border: none;
     width: 186px;
   }
