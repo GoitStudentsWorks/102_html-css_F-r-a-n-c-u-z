@@ -148,7 +148,14 @@
 .header-item-text {
   font-size: 14px;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.header-item-text:hover,
+.header-item-text:focus
+ {
+  color: #BEA69E;
+ }
 
 @media screen and (max-width: 1279.9px) {
   .header-nav {
