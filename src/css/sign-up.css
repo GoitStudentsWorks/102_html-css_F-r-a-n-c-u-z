@@ -2,16 +2,7 @@
   display: flex;
 
   justify-content: space-between;
-  width: auto;
-  height: auto;
   gap: 60px;
-}
-
-@media screen and (min-width: 1280px) {
-  .sign-up-section {
-    max-width: 1080px;
-    max-height: 728px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -652,6 +643,7 @@
     background: #bea69e;
     padding: 76px 19px 62px;
   }
+
   @media only screen and (min-width: 1440px) {
     .sing-up-photo-li.isabella {
       width: 190px;

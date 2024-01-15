@@ -35,12 +35,12 @@
           <div class="label-input_icons-div">
             <input
               class="form-input"
-              type="text"
+              type="email"
               id="user-mail"
               name="user-mail"
               placeholder="Enter your email"
-              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-              title="Please enter a valid email address. Example: example@icloud.com"
+              pattern="[^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+              title="Please enter a valid email address."
             />
           </div>
         </div>
