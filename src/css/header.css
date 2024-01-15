@@ -1,6 +1,9 @@
 .header {
-  top: 20px;
-  left: 100px;
+  top: 20px; /* Отступ вверху 20px */
+  left: 50%;
+  transform: translateX(-50%);
+  /* top: 20px;
+  left: 100px; */
   display: flex;
   position: absolute;
 }
@@ -35,6 +38,11 @@
     width: 822px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .container-header {
+    width: 982px;
+  }
+}
 
 .header-logo {
   margin: 15px 0px 15px 20px;
@@ -51,6 +59,12 @@
     margin-left: 50px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .header-nav-div {
+    padding-left: 209px;
+  }
+}
+
 .header-icon-link-cmr {
   fill: #bea69e66;
 }
