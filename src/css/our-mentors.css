@@ -15,7 +15,6 @@
 }
 .our-mentors-span {
   color: #bea69e;
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -98,7 +97,7 @@ line-height: 1.12;
     column-gap: 100px;
   }
   .our-mentors-title-two {
-    padding-left: 100px;
+    margin-left: 100px;
   }
   .our-mentors-list {
     width: calc((100% - 300px) / 4);
