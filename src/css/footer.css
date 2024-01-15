@@ -1,94 +1,76 @@
-.footer-container {
+.footer {
 /* padding-left: 20px;
     padding-right: 20px;*/
-        padding-top: 40px; 
-            padding-bottom: 20px;
+        /* padding-top: 40px; 
+            padding-bottom: 20px; */
+            margin-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.20);
          background-image: url(/images/footer/Graphic-mob@1x.png); 
 }
 
- @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .footer-container {
+@media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .footer {
         background-image: url(/images/footer/Graphic-mob@2x.png);
-    
+
     }
-} 
+}
 
 @media only screen and (min-width: 768px) {
-    .footer-container {
-    background-image: url(/images/footer/Graphic-tab@1x.png);
-height: 331px;
-padding-top: 50px;
-padding-bottom: 25px;
-/* max-width: 768px;
-width: 768px;
-padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 32px;
-    padding-right: 32px; */
-
-}
+    .footer {
+        background-image: url(/images/footer/Graphic-tab@1x.png);    
+margin-top: 50px;
+    }
 }
 
  @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-     .footer-container {
-         background-image: url(/images/footer/Graphic-tab@2x.png);
-    height: 331px;
-        /* max-width: 768px;
-        width: 768px;
-        padding-top: 50px;
-       padding-bottom: 50px;
-        padding-left: 32px;
-        padding-right: 32px; */
+            .footer {
+                background-image: url(/images/footer/Graphic-tab@2x.png);
+            }
         }
- }
 
- @media only screen and (min-width: 1280px) {
-     .footer-container {
-         background-image: url(/images/footer/Graphic-des1280@1x.png);
-    /* max-width: 1280px;
-    width: 1280px;
-    padding-top: 75px;
-        padding-bottom: 75px;
-        padding-left: 100px;
-            padding-right: 100px; */
+@media only screen and (min-width: 1280px) {
+    .footer{
+        background-image: url(/images/footer/Graphic-des1280@1x.png);
+    margin-top: 75px;
+    }
+}
 
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+    .footer {
+        background-image: url(/images/footer/Graphic-des1280@2x.png);
+        
+    }
+}
 
-        }
- }
+@media only screen and (min-width: 1440px) {
+    .footer {
+        background-image: url(/images/footer/Graphic-des1440@1x.png);
+      
+    }
+}
 
- @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-     .footer-container {
-         background-image: url(/images/footer/Graphic-des1280@2x.png);
-    /* max-width: 1280px;
-        width: 1280px;
-        padding-top: 75px;
-        padding-bottom: 75px;
-        padding-left: 100px;
-        padding-right: 100px; */
-        }
- }
+@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .footer {
+        background-image: url(/images/footer/Graphic-des1440@2x.png);
+       
+    }
+}
 
- @media only screen and (min-width: 1440px) {
-     .footer-container {
-         background-image: url(/images/footer/Graphic-des1440@1x.png);
-          /* max-width: 1440px;
-    width: 1440px;
-       padding-left: 100px;
-            padding-right: 100px;  */
+.footer-container {
+    padding-top: 40px;
+}
 
 
-     }
- }
+@media only screen and (min-width: 768px) {
+    .footer-container {
+   
+height: 331px;
+padding-top: 50px;
+/* padding-bottom: 25px; */
 
- @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-     .footer-container {
-         background-image: url(/images/footer/Graphic-des1440@2x.png);
-          /* max-width: 1440px;
-        width: 1440px;
-        padding-left: 100px;
-        padding-right: 100px;  */
-     }
- }
+}
+}
+
 
 .footer-cont{
     margin-bottom: 75px;
@@ -148,6 +130,7 @@ font-size: 14px;
     font-style: normal;
     font-weight: 400; */
     margin-bottom: 10px;
+    display: block;
 
 }
 
@@ -315,7 +298,7 @@ border-radius: 12px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 
