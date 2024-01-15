@@ -4,8 +4,15 @@
 
 .hero {
   background-image: url(/images/header/Graphic-mob@1x.png);
+
   padding-top: 120px;
   padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(/images/header/Graphic-mob@2x.png);
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -14,9 +21,21 @@
   }
 }
 
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(/images/header/Graphic-tab@2x.png);
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .hero {
     background-image: url(/images/header/Graphic-des1280@1x.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(/images/header/Graphic-des@2x.png);
   }
 }
 
@@ -133,13 +152,22 @@
 }
 
 .hero-student {
-  /* width: 109px; */
+  width: 109px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-student {
     display: flex;
     gap: 12px;
+
+    width: 231px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-student {
+    width: 229px;
+    gap: 10px;
   }
 }
 
@@ -151,26 +179,47 @@
   position: relative;
 }
 
-@media only screen and (min-width: 768px) {
-  .hero-student-list-item {
-    width: 54px;
-    height: 54px;
-  }
-}
 .hero-student-g1 {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-student-g1 {
+    width: 54px;
+    height: 54px;
+  }
+}
+
 .hero-student-b {
   position: absolute;
   top: 0;
   left: 32px;
   z-index: 9;
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-student-b {
+    width: 54px;
+    height: 54px;
+
+    left: 43px;
+  }
+}
+
 .hero-student-g2 {
-  transform: translateX(-43px);
+  transform: translateX(64px);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-student-g2 {
+    width: 54px;
+    height: 54px;
+
+    transform: translateX(86px);
+  }
 }
 
 .student-box {
@@ -181,6 +230,16 @@
   width: 89px;
   gap: 4px;
 }
+
+@media only screen and (min-width: 768px) {
+  .student-box {
+    transform: translateX(86px);
+    width: 82px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
 .hero-student-text {
   font-size: 14px;
   font-weight: 400;
@@ -258,6 +317,7 @@
   stroke-width: 1.5px;
 }
 .hero-image {
+  margin: auto;
   padding: 0 38px;
 }
 @media only screen and (min-width: 768x) {
