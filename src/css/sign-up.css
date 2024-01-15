@@ -1,11 +1,8 @@
-.sign-up-section {
-  display: flex;
-
-  width: auto;
-  height: auto;
-  flex-shrink: 0;
-  gap: 60px;
-
+@media only screen and (min-width: 1280px)  {
+  .sign-up-section {
+    display: flex;
+    gap: 60px;
+  } 
 }
 
 @media screen and (min-width: 1440px) {
