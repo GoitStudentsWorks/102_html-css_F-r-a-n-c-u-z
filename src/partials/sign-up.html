@@ -1,7 +1,6 @@
 <section class="sign-up" id="sign-up">
   <div class="container">
-    
-      <!-- <div class="sign-countainer"> -->
+    <div class="sign-up-section">
       <div class="sign-up-countainer">
         <div class="sing-up-div">
           <h2 class="sign-up-h">Sign <span class="span-up">Up</span></h2>
@@ -71,21 +70,42 @@
         <ul class="sing-up-photo-ul">
           <li class="sing-up-photo-li isabella">
             <picture>
+              <!-- Desktop 1440px -->
               <source
-                type="image/jpeg"
+                media="(min-width: 1440px)"
+                type="image/png" 
                 srcset="
-                  ./images/sign-up/isabella-mendes@1x_result.png 1x,
-                  ./images/sign-up/isabella-mendes@2x_result.png 2x
+                ./images/sign-up/isabella-mendes-desk1440@1x.png 1x,
+                ./images/sign-up/isabella-mendes-desk1440@2x.png 2x
                 "
               />
               <source
+              media="(min-width: 1440px)"
                 type="image/webp"
                 srcset="
-                  ./images/sign-up/isabella-mendes@1x_result_result.webp 1x,
-                  ./images/sign-up/isabella-mendes@2x_result_result.webp 2x
+                ./images/sign-up/isabella-mendes-desk1440@1x_result.webp 1x,
+                ./images/sign-up/isabella-mendes-desk1440@2x_result.webp 2x
+                "
+              />
+              <!-- Desktop 1280px -->
+              <source
+                media="(min-width: 1280px)"
+                type="image/png"
+                srcset="
+                  ./images/sign-up/isabella-mendes-desk1280@1x.png 1x,
+                  ./images/sign-up/isabella-mendes-desk1280@2x.png 2x
+                "
+              />
+              <source
+              media="(min-width: 1280px)"
+                type="image/webp"
+                srcset="
+                  ./images/sign-up/isabella-mendes-desk1280@1x_result.webp 1x,
+                  ./images/sign-up/isabella-mendes-desk1280@2x_result.webp 2x
                 "
               />
               <img
+              class="sing-up-img"
                 src="./images/sign-up/isabella-mendes@1x_result.png"
                 alt="isabella-mendes"
                 width="150"
@@ -97,7 +117,7 @@
           <li class="sing-up-photo-li video-entry">
             <picture>
               <source
-                type="image/jpeg"
+                type="image/png"
                 srcset="
                   ./images/sign-up/video-entry-product@1x_result.png 1x,
                   ./images/sign-up/video-entry-product@2x_result.png 2x
@@ -121,6 +141,6 @@
           </li>
         </ul>
       </div>
-    
+    </div>
   </div>
 </section>
