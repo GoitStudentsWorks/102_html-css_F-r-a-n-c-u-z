@@ -106,35 +106,36 @@
     display: none;
   }
 }
-.header-button {
+.sign-up-link {
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  .header-button {
-    border-radius: 12px;
-    background-color: #fff;
+  .sign-up-link {
     display: block;
     padding: 16px 58px;
+    border-radius: 12px;
+    border: none;
+    max-width: 186px;
+    
     cursor: pointer;
-    color: #121212;
     font-size: 18px;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 1.56;  
     text-transform: uppercase;
-    border: none;
-    width: 186px;
+    color: #121212;
+    background-color: #fff;
   }
+  
 }
-
 @media screen and (min-width: 1280px) {
-  .header-button {
-    width: 238px;
+  .sign-up-link {
+    max-width: 238px;
     padding: 16px 84px;
   }
 }
 
-.header-button:focus,
-.header-button:hover {
+.sign-up-link:focus,
+.sign-up-link:hover {
   background-color: rgba(29, 29, 29, 1);
   color: rgba(190, 166, 158, 1);
   border: none;
@@ -152,10 +153,9 @@
 }
 
 .header-item-text:hover,
-.header-item-text:focus
- {
-  color: #BEA69E;
- }
+.header-item-text:focus {
+  color: #bea69e;
+}
 
 @media screen and (max-width: 1279.9px) {
   .header-nav {
