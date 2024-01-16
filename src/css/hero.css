@@ -63,6 +63,20 @@
   .hero-container {
     max-width: 1280px;
     flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+.hero-container {
+    max-width: 1440px; 
+    gap: 130px;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-container-first {
+    width: 613px;
   }
 }
 
@@ -243,6 +257,14 @@
   letter-spacing: -0.04em;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-student-text {
+    font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: -0.04em;
+  }
+}
+
 .hero-arrow {
   fill: #fff;
 }
@@ -288,10 +310,24 @@
   letter-spacing: -0.04em;
 }
 
+@media only screen and (min-width: 768px) {
+  .rev-text {
+  font-size: 16px;
+  line-height: 1.25;
+  }
+}
+
 .rev-count {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.12;
   letter-spacing: -0.04em;
+}
+
+@media only screen and (min-width: 768px) {
+  .rev-count {
+    line-height: 1.25;
+  }
 }
 
 .hero-star-wrapper {
@@ -324,6 +360,14 @@
   .hero-image {
     padding: 0;
     padding-top: 80px;
+    margin-right: 50px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-image {
+    margin-right: 100px;
   }
 }
 
@@ -336,6 +380,7 @@
 @media only screen and (min-width: 1280px) {
   .hero-image-card {
     width: 397px;
+    
   }
 }
 
