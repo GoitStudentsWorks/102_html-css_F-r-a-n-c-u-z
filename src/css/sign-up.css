@@ -223,8 +223,7 @@ x .sign-up-form .form-text-area {
 }
 
 .btn-send:focus,
-.btn-send:hover,
-.btn-send:active {
+.btn-send:hover {
   background-color: rgba(29, 29, 29, 1);
   color: rgba(190, 166, 158, 1);
 }
