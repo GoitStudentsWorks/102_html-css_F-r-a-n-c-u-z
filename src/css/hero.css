@@ -351,9 +351,11 @@
 .hero-image {
   margin: 0 38px;
 }
+
 @media only screen and (min-width: 768px) {
   .hero-image {
     padding: 0 156px;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 1280px) {
