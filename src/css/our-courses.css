@@ -101,7 +101,7 @@
   padding: 20px;
   /* margin-bottom: 20px; */
   box-sizing: border-box;
-  width: 335px;
+  max-width: 335px;
   height: 398px;
 }
 @media only screen and (min-width: 768px) {

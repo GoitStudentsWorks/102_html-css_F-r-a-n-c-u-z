@@ -71,7 +71,7 @@
 
 .sign-up-form {
   display: flex;
-  width: 480px;
+  max-width: 335px;
 
   flex-shrink: 0;
   flex-direction: column;
@@ -182,7 +182,7 @@
 
   padding: 14px 127px;
 
-  width: 335px;
+  max-width: 335px;
   height: auto;
 
   background-color: white;
@@ -222,7 +222,7 @@
 /*Privacy*/
 
 .privacy-div {
-  width: 335px;
+  max-width: 335px;
   height: 48px;
 
   margin-top: 20px;
@@ -230,7 +230,7 @@
 
 @media screen and (min-width: 768px) {
   .privacy-div {
-    width: 479px;
+    max-width: 479px;
     height: 60px;
 
     margin-top: 20.71px;

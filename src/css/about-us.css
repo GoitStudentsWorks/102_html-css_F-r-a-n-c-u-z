@@ -73,7 +73,7 @@
 
 .abt-text {
     gap: 20px;
-    width: 335px;
+    max-width: 335px;
 
 }
 
@@ -81,7 +81,7 @@
     .abt-text {
         display: flex;
         gap: 40px;
-        width: 600px;
+        max-width: 600px;
 
     }
 }
@@ -89,7 +89,6 @@
 @media only screen and (min-width:1280px) {
     .abt-text {
         gap: 20px;
-        width: 552px;
 
     }
 }
@@ -97,7 +96,7 @@
 @media only screen and (min-width:1440px) {
     .abt-text {
         gap: 40px;
-        width: 630px;
+        max-width: 630px;
     }
 }
 
@@ -111,9 +110,15 @@
     .abt-descr {
             font-size: 16px;
             margin-bottom: 0;
-          
+            max-width: 280px;
+            line-height: 1.25; 
+            letter-spacing: -0.02em;
         }
  }
-
+@media only screen and (min-width: 1280px) {
+    .abt-descr{
+    max-width: 268px;
+  }
+}
 
  
