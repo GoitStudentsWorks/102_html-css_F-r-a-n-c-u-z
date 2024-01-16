@@ -3,6 +3,7 @@
 }
 
 .hero {
+  background-image: url(/images/header/graphic-mob@1x_result.webp);
   background-image: url(/images/header/Graphic-mob@1x.png);
 
   padding-top: 90px;
@@ -11,12 +12,14 @@
 
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .hero {
+    background-image: url(/images/header/graphic-mob@2x_result.webp);
     background-image: url(/images/header/Graphic-mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .hero {
+    background-image: url(/images/header/graphic-tab@1x_result.webp);
     background-image: url(/images/header/Graphic-tab@1x.png);
     padding-top: 120px;
     padding-bottom: 100px;
@@ -25,12 +28,14 @@
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
+    background-image: url(/images/header/graphic-tab@2x_result.webp);
     background-image: url(/images/header/Graphic-tab@2x.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero {
+    background-image: url(/images/header/graphic-des1280@1x_result.webp);
     background-image: url(/images/header/Graphic-des1280@1x.png);
     padding-top: 160px;
     padding-bottom: 150px;
@@ -39,7 +44,21 @@
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .hero {
+    background-image: url(/images/header/graphic-des1280@2x_result.webp);
     background-image: url(/images/header/Graphic-des@2x.png);
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .hero {
+    background-image: url(/images/header/graphic-des1440@1x_result.webp);
+    background-image: url(/images/header/Graphic-des1440@1x.png);
+  }
+}
+
+@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(/images/header/graphic-des1440@2x_result.webp);
+    background-image: url(/images/header/Graphic-des1440@1x.png);
   }
 }
 

@@ -4,17 +4,29 @@
     <ul class="reviews-container">
       <li class="student1-container">
         <div class="abraham-container">
-          <img
-            srcset="
-              ./images/reviews/user-1@1x_result.png 1x,
-              ./images/reviews/user-1@2x_result.png 2x
-            "
-            src="./images/reviews/user-1@1x_result.png"
-            alt="student"
-            width="56"
-            height="56"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              type="image/jpeg"
+              srcset="
+                ./images/reviews/user-1@1x_result.png 1x,
+                ./images/reviews/user-1@2x_result.png 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./images/reviews/user-1@1x_result.webp 1x,
+                ./images/reviews/user-1@2x_result.webp 2x
+              "
+            />
+            <img
+              src="./images/reviews/user-1@1x_result.png"
+              alt="student"
+              width="56"
+              height="56"
+              loading="lazy"
+            />
+          </picture>
           <div class="container-info2">
             <h3 class="student-name">Abraham Baker</h3>
             <p class="student-text">Student</p>
@@ -59,17 +71,29 @@
 
       <li class="student2-container">
         <div class="amanda-container">
-          <img
-            srcset="
-              ./images/reviews/user-2@1x_result.png 1x,
-              ./images/reviews/user-2@2x_result.png 2x
-            "
-            src="./images/reviews/user-2@1x_result.png"
-            alt="student"
-            width="56"
-            height="56"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              type="image/jpeg"
+              srcset="
+                ./images/reviews/user-2@1x_result.png 1x,
+                ./images/reviews/user-2@2x_result.png 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./images/reviews/user-2@1x_result.webp 1x,
+                ./images/reviews/user-2@2x_result.webp 2x
+              "
+            />
+            <img
+              src="./images/reviews/user-2@1x_result.png"
+              alt="student"
+              width="56"
+              height="56"
+              loading="lazy"
+            />
+          </picture>
           <div class="student-info">
             <h3 class="student2-name">Amanda Lowery</h3>
             <p class="student2-text">Student</p>
