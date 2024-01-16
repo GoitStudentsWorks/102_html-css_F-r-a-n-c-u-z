@@ -10,7 +10,9 @@
     max-width: max-content;
 
 }
-
+.abt-header:active{
+    background-color: teal;
+}
 .abt-header {
     font-size: 28px;
     color: #BEA69E;

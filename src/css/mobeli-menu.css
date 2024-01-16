@@ -23,9 +23,9 @@
   height: 100%;
   background-color: rgba(18, 18, 18, 0.4);
 
-  visibility: hidden;
   pointer-events: none;
-  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(100%);
+  transition: translateX 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (min-width: 1280px) {
     .backdrop{
@@ -33,7 +33,7 @@
   }
 }
 .backdrop.is-open {
-  visibility: visible;
+  transform: translateX(0);
 }
 
 .backdrop.is-open > .mobile-menu {

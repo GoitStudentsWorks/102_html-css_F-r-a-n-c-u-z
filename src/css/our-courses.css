@@ -163,7 +163,6 @@
 
 .card-link:hover {
   background-color: #bea69e;
-  transform: rotate(-40deg);
 }
 
 .card-link:hover .icon-arrow {
