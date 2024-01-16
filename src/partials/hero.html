@@ -2,108 +2,168 @@
   <div class="container">
     <div class="hero-container">
       <div class="hero-container-first">
-      <h1 class="hero-title">
-        Discover the magic of <span class="hero-accent">photography</span> in
-        our school
-      </h1>
-      <p class="hero-text">
-        Our photography school offers an unforgettable journey, where you can
-        learn the basics of composition, master technical skills, translate your
-        unique ideas.
-      </p>
-      <div class="hero-student-review-box">
-        <div class="hero-student">
-          <ul class="hero-student-list">
-            <li class="hero-student-list-item">
-              <img
-                class="hero-student-g1"
-                srcset="
-                  ./images/hero/girl-1@1x_result.png 1x,
-                  ./images/hero/girl-1@2x_result.png 2x
-                "
-                src="./images/hero/girl-1@1x_result.png"
-                alt="girl-1"
-                width="44"
-                height="44"
-                loading="lazy"
-              />
-            </li>
-            <li class="hero-student-list-item">
-              <img
-                class="hero-student-b"
-                srcset="
-                  ./images/hero/boy@1x_result.png 1x,
-                  ./images/hero/boy@2x_result.png 2x
-                "
-                src="./images/hero/boy@1x_result.png"
-                alt="boy"
-                width="44"
-                height="44"
-                loading="lazy"
-              />
-            </li>
-            <li class="hero-student-list-item">
-              <img
-                class="hero-student-g2"
-                srcset="
-                  ./images/hero/girl-2@1x_result.png 1x,
-                  ./images/hero/girl-2@2x_result.png 2x
-                "
-                src="./images/hero/girl-2@1x_result.png"
-                alt="girl-2"
-                width="44"
-                height="44"
-                loading="lazy"
-              />
-            </li>
-          </ul>
-          <div class="student-box">
-            <a href="#reviews" class="hero-student-text scroll-link">
-              Our happy students
-            </a>
-            <a href="#reviews" class="hero-arrow-link scroll-link">
-              <svg class="hero-arrow" width="18" height="9">
-                <use href="./images/icons.svg#icon-Arrow-2"></use>
+        <h1 class="hero-title">
+          Discover the magic of <span class="hero-accent">photography</span> in
+          our school
+        </h1>
+        <p class="hero-text">
+          Our photography school offers an unforgettable journey, where you can
+          learn the basics of composition, master technical skills, translate
+          your unique ideas.
+        </p>
+        <div class="hero-student-review-box">
+          <div class="hero-student">
+            <ul class="hero-student-list">
+              <li class="hero-student-list-item">
+                <picture>
+                  <!-- <source
+                    type="image/jpeg"
+                    srcset="
+                      ./images/hero/girl-1@1x_result.png 1x,
+                      ./images/hero/girl-1@2x_result.png 2x
+                    "
+                  /> -->
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./images/hero/girl-1@1x_result.webp 1x,
+                      ./images/hero/girl-1@2x_result.webp 2x
+                    "
+                  />
+                  <img
+                    class="hero-student-g1"
+                    src="./images/hero/girl-1@1x_result.png"
+                    alt="girl-1"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                  />
+                </picture>
+              </li>
+              <li class="hero-student-list-item">
+                <picture>
+                  <!-- <source
+                    type="image/jpeg"
+                    srcset="
+                      ./images/hero/boy@1x_result.png 1x,
+                      ./images/hero/boy@2x_result.png 2x
+                    "
+                  /> -->
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./images/hero/boy@1x_result.webp 1x,
+                      ./images/hero/boy@2x_result.webp 2x
+                    "
+                  />
+                  <img
+                    class="hero-student-b"
+                    src="./images/hero/boy@1x_result.png"
+                    alt="boy"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                  />
+                </picture>
+              </li>
+              <li class="hero-student-list-item">
+                <picture>
+                  <!-- <source
+                    type="image/jpeg"
+                    srcset="
+                      ./images/hero/girl-2@1x_result.png 1x,
+                      ./images/hero/girl-2@2x_result.png 2x
+                    "
+                  /> -->
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./images/hero/girl-2@1x_result.webp 1x,
+                      ./images/hero/girl-2@2x_result.webp 2x
+                    "
+                  />
+                  <img
+                    class="hero-student-g2"
+                    src="./images/hero/girl-2@1x_result.png"
+                    alt="girl-2"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                  />
+                </picture>
+              </li>
+            </ul>
+            <div class="student-box">
+              <a href="#reviews" class="hero-student-text scroll-link">
+                Our happy students
+              </a>
+              <a href="#reviews" class="hero-arrow-link scroll-link">
+                <svg class="hero-arrow" width="18" height="9">
+                  <use href="./images/icons.svg#icon-Arrow-2"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero-reviews">
+            <div class="hero-star-wrapper">
+              <svg class="hero-star-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-star"></use>
               </svg>
-            </a>
-          </div>
-        </div>
-        <div class="hero-reviews">
-          <div class="hero-star-wrapper">
-            <svg class="hero-star-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
-          </div>
-          <div class="hero-reviews-wrapper">
-            <p class="hero-rev rev-text">Reviews</p>
-            <p class="hero-rev rev-count">+1500</p>
+            </div>
+            <div class="hero-reviews-wrapper">
+              <p class="hero-rev rev-text">Reviews</p>
+              <p class="hero-rev rev-count">+1500</p>
+            </div>
           </div>
         </div>
       </div>
-</div>
       <picture class="hero-image">
         <!-- Desktop -->
-        <source
+        <!-- <source
           media="(min-width: 1280px)"
+          type="image/jpeg"
           srcset="
             ./images/hero/Rectangle-5-des@1x_result.png 1x,
             ./images/hero/Rectangle-5-des@2x_result.png 2x
           "
+        /> -->
+        <source
+          type="image/webp"
+          srcset="
+            ./images/hero/rectangle-5-des@1x_result.webp 1x,
+            ./images/hero/rectangle-5-des@2x_result.webp 2x
+          "
         />
         <!-- Tablet -->
-        <source
+        <!-- <source
           media="(min-width: 768px)"
+          type="image/jpeg"
           srcset="
             ./images/hero/Rectangle-5-tab@1x_result.png 1x,
             ./images/hero/Rectangle-5-tab@2x_result.png 2x
           "
+        /> -->
+        <source
+          type="image/webp"
+          srcset="
+            ./images/hero/rectangle-5-tab@1x_result.webp 1x,
+            ./images/hero/rectangle-5-tab@2x_result.webp 2x
+          "
         />
         <!-- Mobeli -->
-        <source
+        <!-- <source
           media="(max-width: 767px)"
+          type="image/jpeg"
           srcset="
             ./images/hero/Rectangle-5-mob@1x_result.png 1x,
             ./images/hero/Rectangle-5-mob@2x_result.png 2x
+          "
+        /> -->
+        <source
+          type="image/webp"
+          srcset="
+            ./images/hero/rectangle-5-mob@1x_result.webp 1x,
+            ./images/hero/rectangle-5-mob@2x_result.webp 2x
           "
         />
         <img
@@ -115,7 +175,6 @@
           loading="lazy"
         />
       </picture>
-      
     </div>
   </div>
 </section>

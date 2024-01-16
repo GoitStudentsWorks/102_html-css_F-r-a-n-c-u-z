@@ -6,20 +6,20 @@
   margin-top: 40px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-image: url(/images/footer/graphic-mob@1x_result.webp);
-  background-image: url(/images/footer/Graphic-mob@1x.png);
+  /* background-image: url(/images/footer/Graphic-mob@1x.png); */
 }
 
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(/images/footer/graphic-mob@2x_result.webp);
-    background-image: url(/images/footer/Graphic-mob@2x.png);
+    /* background-image: url(/images/footer/Graphic-mob@2x.png); */
   }
 }
 
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url(/images/footer/graphic-tab@1x_result.webp);
-    background-image: url(/images/footer/Graphic-tab@1x.png);
+    /* background-image: url(/images/footer/Graphic-tab@1x.png); */
     margin-top: 50px;
   }
 }
@@ -27,14 +27,14 @@
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer/graphic-tab@2x_result.webp);
-    background-image: url(/images/footer/Graphic-tab@2x.png);
+    /* background-image: url(/images/footer/Graphic-tab@2x.png); */
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .footer {
     background-image: url(/images/footer/graphic-des1280@1x_result.webp);
-    background-image: url(/images/footer/Graphic-des1280@1x.png);
+    /* background-image: url(/images/footer/Graphic-des1280@1x.png); */
     margin-top: 75px;
   }
 }
@@ -42,21 +42,21 @@
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(/images/footer/graphic-des1280@2x_result.webp);
-    background-image: url(/images/footer/Graphic-des1280@2x.png);
+    /* background-image: url(/images/footer/Graphic-des1280@2x.png); */
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .footer {
     background-image: url(/images/footer/graphic-des1440@1x_result.webp);
-    background-image: url(/images/footer/Graphic-des1440@1x.png);
+    /* background-image: url(/images/footer/Graphic-des1440@1x.png); */
   }
 }
 
 @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(/images/footer/graphic-des1440@2x_result.webp);
-    background-image: url(/images/footer/Graphic-des1440@2x.png);
+    /* background-image: url(/images/footer/Graphic-des1440@2x.png); */
   }
 }
 
